@@ -1,0 +1,10 @@
+name: 'Asciidocjs action'
+description: 'GitHub action that uses asciidocjs to convert asciidoc to HTML'
+inputs:
+  docs_path:
+    description: 'Path to documentation'
+    required: true
+    default: '.'
+runs:
+  using: 'node16'
+  main: 'index.js'

@@ -1,0 +1,26 @@
+{
+  "name": "asciidocjs-action",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oraNod/asciidocjs-action.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oraNod/asciidocjs-action/issues"
+  },
+  "homepage": "https://github.com/oraNod/asciidocjs-action#readme",
+  "dependencies": {
+    "@actions/core": "^1.6.0",
+    "@actions/github": "^5.0.1",
+    "asciidoctor": "^2.2.6",
+    "glob": "^7.2.0"
+  }
+}
