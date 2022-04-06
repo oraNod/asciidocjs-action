@@ -5,8 +5,7 @@ const asciidoctor = require('asciidoctor')()
 
 const docsPath = core.getInput('docs_path');
 path = require('path');
-// list markdown files at root of project folder
-const location = path.join(__dirname, docsPath),
+const location = docsPath,
 patt = path.join(location, '**.asciidoc');
 
 glob(patt, (err, files) => {
