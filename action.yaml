@@ -1,5 +1,9 @@
 name: 'Asciidocjs action'
+author: 'Don Naro'
 description: 'GitHub action that uses asciidocjs to convert asciidoc to HTML'
+branding:
+  icon: 'book'
+  color: 'gray-dark'
 inputs:
   docs_path:
     description: 'Path to documentation'
